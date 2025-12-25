@@ -1,0 +1,11 @@
+=== TESTING NEW MODELS ===
+
+❌ FAIL: moonshotai/kimi-k2:free - No endpoints found matching your data policy (Free model publication). Configure: https://openrouter.ai/settings/privacy
+✅ WORKS: nvidia/nemotron-nano-12b-v2-vl:free
+✅ WORKS: google/gemini-2.0-flash-exp:free
+❌ FAIL: qwen/qwen3-4b:free - Provider returned error
+❌ FAIL: openai/gpt-5-nano - Provider returned error
+✅ WORKS: google/gemini-2.5-flash-lite
+✅ WORKS: x-ai/grok-4-fast
+✅ WORKS: x-ai/grok-4.1-fast
+✅ WORKS: anthropic/claude-3-haiku

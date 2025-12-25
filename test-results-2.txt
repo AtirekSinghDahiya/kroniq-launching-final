@@ -1,0 +1,29 @@
+Testing MORE OpenRouter models...
+
+❌ FAIL: google/gemini-2.0-flash-exp:free - Provider returned error
+❌ FAIL: qwen/qwen-2.5-72b-instruct:free - No endpoints found for qwen/qwen-2.5-72b-instruct:free.
+❌ FAIL: qwen/qwen3-30b-a3b:free - No endpoints found for qwen/qwen3-30b-a3b:free.
+❌ FAIL: deepseek/deepseek-r1:free - No endpoints found for deepseek/deepseek-r1:free.
+❌ FAIL: deepseek/deepseek-chat:free - No endpoints found for deepseek/deepseek-chat:free.
+❌ FAIL: microsoft/phi-4:free - No endpoints found for microsoft/phi-4:free.
+❌ FAIL: microsoft/phi-4-reasoning:free - No endpoints found for microsoft/phi-4-reasoning:free.
+❌ FAIL: huggingface/eva-qwen2-72b:free - huggingface/eva-qwen2-72b:free is not a valid model ID
+✅ WORKS: x-ai/grok-3-mini-beta
+❌ FAIL: x-ai/grok-beta - No endpoints found for x-ai/grok-beta.
+✅ WORKS: x-ai/grok-3-beta
+❌ FAIL: meta-llama/llama-3.1-8b-instruct:free - No endpoints found for meta-llama/llama-3.1-8b-instruct:free.
+❌ FAIL: meta-llama/llama-3.2-11b-vision-instruct:free - No endpoints found for meta-llama/llama-3.2-11b-vision-instruct:free.
+✅ WORKS: deepseek/deepseek-r1
+✅ WORKS: qwen/qwen-2.5-72b-instruct
+✅ WORKS: anthropic/claude-3-opus
+❌ FAIL: openai/o1-mini - No endpoints found for openai/o1-mini.
+
+=== SUMMARY ===
+Working: 5/17
+
+Working models:
+  ✅ x-ai/grok-3-mini-beta
+  ✅ x-ai/grok-3-beta
+  ✅ deepseek/deepseek-r1
+  ✅ qwen/qwen-2.5-72b-instruct
+  ✅ anthropic/claude-3-opus

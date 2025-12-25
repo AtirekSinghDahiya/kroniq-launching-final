@@ -1,0 +1,10 @@
+=== RETESTING FAILED MODELS ===
+
+❌ FAIL: moonshotai/kimi-k2:free
+   Error: No endpoints found matching your data policy (Free model publication). Configure: https://openrouter.ai/settings/privacy
+✅ WORKS: qwen/qwen3-4b:free
+❌ FAIL: openai/gpt-5-nano
+   Error: Provider returned error
+✅ WORKS: moonshotai/kimi-k2
+❌ FAIL: qwen/qwen3-4b
+   Error: No endpoints found for qwen/qwen3-4b.

@@ -1,0 +1,33 @@
+Testing OpenRouter models...
+
+❌ FAIL: meta-llama/llama-4-maverick:free - No endpoints found for meta-llama/llama-4-maverick:free.
+❌ FAIL: meta-llama/llama-4-scout:free - No endpoints found for meta-llama/llama-4-scout:free.
+❌ FAIL: meta-llama/llama-3.2-3b-instruct:free - Provider returned error
+✅ WORKS: meta-llama/llama-3.3-70b-instruct:free
+✅ WORKS: google/gemma-3-27b-it:free
+✅ WORKS: google/gemma-3-12b-it:free
+✅ WORKS: google/gemma-3-4b-it:free
+❌ FAIL: mistralai/mistral-small-3.1-24b-instruct:free - Provider returned error
+✅ WORKS: mistralai/mistral-7b-instruct:free
+❌ FAIL: nvidia/llama-3.1-nemotron-nano-8b-v1:free - No endpoints found for nvidia/llama-3.1-nemotron-nano-8b-v1:free.
+✅ WORKS: deepseek/deepseek-chat
+❌ FAIL: openrouter/auto - Provider returned error
+❌ FAIL: x-ai/grok-2-1212 - No endpoints found for x-ai/grok-2-1212.
+✅ WORKS: openai/gpt-4o-mini
+✅ WORKS: anthropic/claude-3.5-haiku
+✅ WORKS: openai/gpt-4o
+✅ WORKS: anthropic/claude-3.5-sonnet
+✅ WORKS: openai/chatgpt-4o-latest
+
+=== SUMMARY ===
+Working: 11/18
+Failed: 7/18
+
+Failed models:
+  - meta-llama/llama-4-maverick:free: No endpoints found for meta-llama/llama-4-maverick:free.
+  - meta-llama/llama-4-scout:free: No endpoints found for meta-llama/llama-4-scout:free.
+  - meta-llama/llama-3.2-3b-instruct:free: Provider returned error
+  - mistralai/mistral-small-3.1-24b-instruct:free: Provider returned error
+  - nvidia/llama-3.1-nemotron-nano-8b-v1:free: No endpoints found for nvidia/llama-3.1-nemotron-nano-8b-v1:free.
+  - openrouter/auto: Provider returned error
+  - x-ai/grok-2-1212: No endpoints found for x-ai/grok-2-1212.

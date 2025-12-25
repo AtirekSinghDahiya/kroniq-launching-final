@@ -1,0 +1,3 @@
+✅ WORKS: google/gemini-3-pro-preview
+
+Response: 
